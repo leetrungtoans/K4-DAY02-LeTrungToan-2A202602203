@@ -1,9 +1,9 @@
 # Phiếu quy tắc gán nhãn — Ngày 2
 
-**Họ và tên:** CHƯA ĐIỀN<br>
-**MSSV:** CHƯA ĐIỀN<br>
-**Hình thức:** CHƯA ĐIỀN — cá nhân hoặc theo cặp<br>
-**Mã cặp:** CHƯA ĐIỀN — ghi `SOLO` nếu làm cá nhân
+**Họ và tên:** Lê Trung Toán<br>
+**MSSV:** 2A202602203<br>
+**Hình thức:** theo cặp<br>
+**Mã cặp:** Trấn áp thể hệ trẻ
 
 ## 1. Phạm vi
 
@@ -46,28 +46,28 @@ Hoàn thành trước khi xem bài của người khác hoặc bộ nhãn tham c
 
 ### Tình huống A — xe buýt hay xe van?
 
-- Ảnh và mã vật thể: CHƯA ĐIỀN
-- Dấu hiệu nhìn thấy: CHƯA ĐIỀN
-- Quy tắc áp dụng: CHƯA ĐIỀN
-- Quyết định: CHƯA ĐIỀN
-- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? CHƯA ĐIỀN
+- Ảnh và mã vật thể: [ghi ảnh + mã vật thể cụ thể hoặc mô tả vị trí]
+- Dấu hiệu nhìn thấy: [mô tả mái, chiều dài, cửa sổ, thân xe, độ rộng]
+- Quy tắc áp dụng: [ưu tiên thân dài và nhiều cửa sổ cho `bus`; thân hộp kín cho `van`]
+- Quyết định: [chọn `bus` hoặc `van`]
+- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? [đánh dấu `needs_review` và không đoán]
 
 ### Tình huống B — xe tải hay xe van/ô tô con?
 
-- Ảnh và mã vật thể: CHƯA ĐIỀN
-- Dấu hiệu nhìn thấy: CHƯA ĐIỀN
-- Quy tắc áp dụng: CHƯA ĐIỀN
-- Quyết định: CHƯA ĐIỀN
-- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? CHƯA ĐIỀN
+- Ảnh và mã vật thể: [ghi ảnh + mã vật thể cụ thể hoặc mô tả vị trí]
+- Dấu hiệu nhìn thấy: [mô tả khoang hàng, thùng, phần cabin, bề mặt mái, kích thước]
+- Quy tắc áp dụng: [xe có thùng/ben rõ → `truck`; thân hộp kín, không có thùng và không phải ô tô con → `van`]
+- Quyết định: [chọn `truck` / `van` / `car`]
+- Nếu vẫn thiếu bằng chứng, bạn sẽ làm gì? [đánh dấu `needs_review`, kiểm tra lại ở zoom 100% và không đoán]
 
 ### Tình huống C — bị che, bị mép ảnh cắt hay không đủ bằng chứng?
 
-- Ảnh và mã vật thể: CHƯA ĐIỀN
-- Dấu hiệu nhìn thấy khi phóng 100%: CHƯA ĐIỀN
-- Giá trị `visibility`: CHƯA ĐIỀN
-- Giá trị `boundary`: CHƯA ĐIỀN
-- Trạng thái `review_state`: CHƯA ĐIỀN
-- Lý do: CHƯA ĐIỀN
+- Ảnh và mã vật thể: [ghi ảnh + mã vật thể cụ thể hoặc mô tả vị trí]
+- Dấu hiệu nhìn thấy khi phóng 100%: [mô tả phần nào còn nhìn thấy và phần nào không]
+- Giá trị `visibility`: [clear / occluded / unclear]
+- Giá trị `boundary`: [inside / truncated]
+- Trạng thái `review_state`: [confident / needs_review]
+- Lý do: [nêu rõ vì sao có đủ hoặc không đủ bằng chứng phân lớp]
 
 ## 6. Xác nhận tự kiểm tra
 
@@ -79,4 +79,4 @@ Hoàn thành trước khi xem bài của người khác hoặc bộ nhãn tham c
 - [ ] Đã hoàn thành ba tình huống trước khi xem nguồn đối chiếu.
 - [ ] Nếu làm theo cặp, hai người đã xuất bài độc lập trước khi trao đổi.
 - [ ] Nếu làm cá nhân, bài riêng đã được kiểm trước khi nhận bộ tham chiếu.
-- [ ] Số vật thể thực tế: CHƯA ĐIỀN — 40–60 là mục tiêu khối lượng, không phải điểm cắt.
+- [ ] Số vật thể thực tế: [NHẬP SỐ LƯỢNG] — 40–60 là mục tiêu khối lượng, không phải điểm cắt.
